@@ -1,0 +1,39 @@
+:root {
+    --toupe: #c19b76;
+    --black: #1c1c1c;
+  }
+
+@font-face {
+    src: url("../css/fonts/roboto-black.ttf");
+    font-family: "RobotoBlack";
+    font-weight: 400;
+}
+
+/* font-family: 'Gilda Display', serif; */
+/* font-family: 'RobotoBlack', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+#wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* header */
+
+header {
+    height: 38px;
+    background-color: var(--black);
+    padding-top: 13px;
+}
+
+.logo {
+    width: 128px;
+    height: 19px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+/* header end */
