@@ -139,11 +139,8 @@ button.transparent {
 }
 
 .availablity__item {
-    width: 135px;
-    height: 100%;
-    display: block;
-    float: left;
-    padding-left: 42px;
+    flex: 25%;
+    padding-left: 40px;
 }
 
 .availablity__item label {
@@ -248,6 +245,7 @@ button.transparent {
 
 #about-us aside.right {
     position: relative;
+    margin-left: 30px;
 }
 
 #about-us aside.right img {
@@ -280,8 +278,73 @@ button.transparent {
 
 #best-rooms {
     height: 618px;
+    padding-top: 56px;
     background-color: #f9f9f9;
 }
+
+#best-rooms .divider.warm {
+    background-color: var(--warm-grey);
+}
+
+#best-rooms h2 {
+    font-family: GildaDisplay;
+    font-size: 41.5px;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+}
+
+#best-rooms .book-now {
+    width: 428px;
+    height: 392px;
+    background-color: white;
+    background-image: url(/img/bedroom.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#best-rooms h3 {
+    font-family: GildaDisplay;
+    font-size: 22.5px;
+    line-height: 0.71;
+    letter-spacing: normal;
+    color: var(--black);
+}
+
+#best-rooms .room p,
+#best-rooms p.room-label {
+    font-size: 8.5px;
+    font-style: normal;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 22px;
+    padding-top: 162px;
+}
+
+#best-rooms .room {
+    width: 203px;
+    height: 184px;
+}
+
+#best-rooms .room.atelier{
+    background-image: url(/img/apartment.jpg);
+}
+
+#best-rooms .room.piazza{
+    background-image: url(/img/hotel.jpg);
+}
+
+#best-rooms .room.gallery{
+    background-image: url(/img/cozy-modern-bedroom.jpg);
+}
+
+#best-rooms .room.grand-piazza-suite{
+    background-image: url(/img/interior.jpg);
+}
+
 
 /* #best-rooms END*/
 
