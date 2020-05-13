@@ -1,27 +1,23 @@
 :root {
     --toupe: #c19b76;
     --black: #1c1c1c;
-    --gray:  #878787;
+    --warm-grey: #878787;
   }
 
-@font-face {
-    src: url("../css/fonts/roboto-black.ttf");
-    font-family: "RobotoBlack";
-    font-weight: 400;
-}
-
-/* font-family: 'Gilda Display', serif; */
-/* font-family: 'RobotoBlack', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
-
-body {
+body, html, button {
     font-family: 'Roboto', sans-serif;
     font-stretch: normal;
     font-weight: normal; 
+    font-style: normal;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    border: unset;
+    cursor: pointer;
 }
 
 #wrapper {
@@ -60,18 +56,16 @@ header nav ul {
 header nav a {
     font-size: 10.5px;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.95;
     letter-spacing: -0.11px;
     text-align: left;
-    color: var(--gray);
+    color: var(--warm-grey);
     padding-bottom: 2px;
 }
 
 header nav a:hover {
     color: white;
-    border-bottom: 3px solid var(--gray);
+    border-bottom: 3px solid var(--warm-grey);
 }
 /* header END */
 
@@ -124,7 +118,6 @@ button.transparent {
     margin: 0 auto;
     display: block;
     color: white;
-    font-family: Roboto;
     font-size: 8.5px;
     font-weight: 900;
     line-height: 2.41;
@@ -133,6 +126,7 @@ button.transparent {
 }
 
 .availablity {
+    display: flex;
     width: 540px;
     height: 100px;
     margin: 93px auto 0 auto; 
@@ -144,15 +138,23 @@ button.transparent {
     background-color: black;
 }
 
-.availablity {
-
-}
-
 .availablity__item {
     width: 135px;
     height: 100%;
     display: block;
     float: left;
+    padding-left: 42px;
+}
+
+.availablity__item label {
+    display: block;
+    width: 57px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: 0.72px;
+    color: #a3a3a3;
+    margin-top: 14px;
 }
 
 .availablity__item input {
@@ -170,8 +172,11 @@ button.transparent {
 
 .availablity__item button {
     background-color: black;
-    color: white;
     height: 100%;
+    color: white;
+    font-size: 9px;
+    line-height: 1.72;
+    letter-spacing: 1.53px;
 }
 
 .availablity__item select {
@@ -184,8 +189,154 @@ button.transparent {
     font-size: 9px;
     line-height: 2.28;
     letter-spacing: -0.54px;
+    color: var(--black);
 
     background: transparent;
+
+    vertical-align: top;
+    line-height: 42px;
 }
 
 /* #top END */
+
+/* #about-us */
+
+#about-us {
+    padding-top: 75px;
+    height: 504px;
+    display: flex;
+}
+
+#about-us aside h2{
+    font-family: GildaDisplay;
+    font-size: 60px;
+    line-height: 1.01;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
+#about-us aside.left {
+    margin-left: 310px;
+    width: 360px;
+}
+
+#about-us aside p {
+    font-family: Roboto;
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 0.63px;
+    text-align: center;
+    color: var(--warm-grey)
+}
+
+#about-us button {
+    display: block;
+    width: 103px;
+    height: 33px;
+    background-color: var(--toupe);
+    color: white;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;    
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#about-us aside.right {
+    position: relative;
+}
+
+#about-us aside.right img {
+    position: absolute;
+}
+
+#about-us aside.right img.pic1{
+    z-index: 1;
+    left: 42px;
+    top: -26px;
+}
+
+#about-us aside.right img.pic2{
+    z-index: 2;
+    left: 0;
+    top: 146px;
+}
+
+#about-us aside.right img.pic3{
+    z-index: 3;
+    left: 318px;
+    top: 0px;
+}
+
+
+
+/* #about-us END */
+
+/* #best-rooms */
+
+#best-rooms {
+    height: 618px;
+    background-color: #f9f9f9;
+}
+
+/* #best-rooms END*/
+
+/* #check-all */
+#check-all {
+    height: 481px;
+    background-color: var(--black);
+}
+/* #check-all END*/
+
+
+/* #text-info */
+#text-info {
+    height: 87px;
+    margin-top: 57px;
+    margin-bottom: 57px;
+}
+/* #text-info END */
+
+/* footer */
+footer {
+    height: 67px;
+    background-color: #151515;
+    padding-left: 281px;
+    padding-right: 826px;    
+}
+
+footer nav {
+    width: 100%;
+    padding-top: 26px;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer nav a {
+    font-family: GildaDisplay;
+    font-size: 9.5px;
+    line-height: 2.16;
+    letter-spacing: 0.29px;
+    color: white;
+}
+
+footer nav a:hover {
+    color: white;
+}
+/* footer END */
+
+.hotelBayview {
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 1.16px;
+    text-align: center;
+    color: var(--warm-grey);
+}
