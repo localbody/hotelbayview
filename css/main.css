@@ -16,7 +16,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* font-weight: 400; */
+    font-stretch: normal;
+    font-weight: normal; 
 }
 
 a {
@@ -83,6 +84,108 @@ header nav a:hover {
     background-position: bottom;
     /* background-image: linear-gradient(to top, rgba(28, 28, 28, 0.2), rgba(28, 28, 28, 0.2)); */
     object-fit: contain;
+
+    padding-top: 77px;
+}
+
+#top h1 {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    font-style: normal;
+    line-height: 2.28;
+    letter-spacing: 1.53px;
+}
+
+hr.divider {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    border: none; 
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+#top h2 {
+    font-family: GildaDisplay;
+    font-size: 52.5px;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+button.transparent {
+    width: 144px;
+    height: 36px;
+    border: solid 1.5px #ffffff;
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
+    color: white;
+    font-family: Roboto;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    margin-top: 35px;
+}
+
+.availablity {
+    width: 540px;
+    height: 100px;
+    margin: 93px auto 0 auto; 
+    background-color: white; 
+}
+
+.availablity button {
+    width: 135px;
+    background-color: black;
+}
+
+.availablity {
+
+}
+
+.availablity__item {
+    width: 135px;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+.availablity__item input {
+    width: 57px;
+    height: 40px;
+    border: solid 0.8px #a3a3a3;
+    background-color: white;
+
+    font-family: GildaDisplay;
+    font-size: 37.5px;
+    line-height: 0.55;
+    letter-spacing: -2.25px;
+    text-align: center;
+}
+
+.availablity__item button {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.availablity__item select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+
+    font-family: GildaDisplay;
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: -0.54px;
+
+    background: transparent;
 }
 
 /* #top END */

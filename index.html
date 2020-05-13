@@ -35,28 +35,59 @@
 
             <section id="top">
                 <h1>LUXURY HOTEL & BEST RESORT</h1>
+                <hr class="divider">
                 <h2>ENJOY A LUXURY<br>EXPERIENCE</h2>
-                <button>ROOMS & SUITES</button>
+                <button class="transparent">ROOMS & SUITES</button>
                 
-                <div>
-                    <label for="check-in-day">CHECK-IN</label>
-                    <input type="text" id="check-in-day">
-                    <input type="text" id="check-in-month">
-                </div>
+                <div class="availablity">
 
-                <div>
-                    <label for="check-out-day">CHECK-OUT</label>
-                    <input type="text" id="check-out-day">
-                    <input type="text" id="check-out-month">
-                </div>
+                    <div class="availablity__item">
+                        <label for="check-in-day">CHECK-IN</label>
+                        <input type="text" id="check-in-day" value="26">
+                        <select name="check-in-month" id="check-in-month">
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+                    </div>
 
-                <div>
-                    <label for="guest">CHECK-IN</label>
-                    <input type="text" id="guest">
-                </div>
+                    <div class="availablity__item">
+                        <label for="check-out-day">CHECK-OUT</label>
+                        <input type="text" id="check-out-day" value="28">
+                        <select name="check-out-month" id="check-out-month">
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>    
+                        </select>
+                    </div>
 
-                <div>
-                    <button>CHECK<br>AVAILABILITY</button>
+                    <div class="availablity__item">
+                        <label for="guest">GUEST</label>
+                        <input type="text" id="guest" value="1">
+                    </div>
+
+                    <div class="availablity__item">
+                        <button>CHECK<br />AVAILABILITY</button>
+                    </div>
+
                 </div>
 
             </section>
