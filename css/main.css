@@ -27,7 +27,6 @@ button {
 }
 
 /* header BEGIN */
-
 header {
     height: 38px;
     background-color: var(--black);
@@ -44,7 +43,7 @@ header {
 
 header nav {
     width: 100%;
-    padding-left: 281px;
+    padding-left: 300px;
 }
 
 header nav ul {
@@ -69,17 +68,13 @@ header nav a:hover {
 }
 /* header END */
 
-
 /* #top BEGIN */
-
 #top {
-    height: 576px;
+    height: 506px;
     background-image: url(/img/top.jpg);
     background-position: bottom;
-    /* background-image: linear-gradient(to top, rgba(28, 28, 28, 0.2), rgba(28, 28, 28, 0.2)); */
     object-fit: contain;
-
-    padding-top: 77px;
+    padding-top: 70px;
 }
 
 #top h1 {
@@ -96,15 +91,15 @@ hr.divider {
     height: 2px;
     background-color: white;
     border: none; 
-    margin-top: 21px;
-    margin-bottom: 21px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 #top h2 {
     font-family: GildaDisplay;
-    font-size: 52.5px;
+    font-size: 55px;
     font-style: normal;
-    line-height: 1.28;
+    line-height: 1.25;
     letter-spacing: normal;
     text-align: center;
     color: white;
@@ -122,7 +117,7 @@ button.transparent {
     font-weight: 900;
     line-height: 2.41;
     letter-spacing: 0.85px;
-    margin-top: 35px;
+    margin-top: 33px;
 }
 
 .availablity {
@@ -140,7 +135,7 @@ button.transparent {
 
 .availablity__item {
     flex: 25%;
-    padding-left: 40px;
+    padding-left: 37px;
 }
 
 .availablity__item label {
@@ -151,7 +146,7 @@ button.transparent {
     line-height: 2.28;
     letter-spacing: 0.72px;
     color: #a3a3a3;
-    margin-top: 14px;
+    margin-top: 18px;
 }
 
 .availablity__item input {
@@ -159,9 +154,8 @@ button.transparent {
     height: 40px;
     border: solid 0.8px #a3a3a3;
     background-color: white;
-
     font-family: GildaDisplay;
-    font-size: 37.5px;
+    font-size: 40px;
     line-height: 0.55;
     letter-spacing: -2.25px;
     text-align: center;
@@ -181,26 +175,21 @@ button.transparent {
     -webkit-appearance: none;
     -moz-appearance: none;
     border: none;
-
     font-family: GildaDisplay;
-    font-size: 9px;
+    font-size: 13px;
     line-height: 2.28;
     letter-spacing: -0.54px;
     color: var(--black);
-
     background: transparent;
-
     vertical-align: top;
     line-height: 42px;
 }
-
 /* #top END */
 
 /* #about-us */
-
 #about-us {
-    padding-top: 75px;
-    height: 504px;
+    padding-top: 87px;
+    height: 412px;
     display: flex;
 }
 
@@ -211,12 +200,12 @@ button.transparent {
     letter-spacing: normal;
     text-align: center;
     color: var(--black);
-    margin-top: 27px;
-    margin-bottom: 30px;
+    margin-top: 14px;
+    margin-bottom: 17px;
 }
 
 #about-us aside.left {
-    margin-left: 310px;
+    margin-left: 300px;
     width: 360px;
 }
 
@@ -240,12 +229,12 @@ button.transparent {
     line-height: 2.41;
     letter-spacing: 0.85px;    
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 27px;
 }
 
 #about-us aside.right {
     position: relative;
-    margin-left: 30px;
+    margin-left: 37px;
 }
 
 #about-us aside.right img {
@@ -255,27 +244,23 @@ button.transparent {
 #about-us aside.right img.pic1{
     z-index: 1;
     left: 42px;
-    top: -26px;
+    top: -11px;
 }
 
 #about-us aside.right img.pic2{
     z-index: 2;
     left: 0;
-    top: 146px;
+    top: 160px;
 }
 
 #about-us aside.right img.pic3{
     z-index: 3;
     left: 318px;
-    top: 0px;
+    top: 15px;
 }
-
-
-
 /* #about-us END */
 
 /* #best-rooms */
-
 #best-rooms {
     height: 618px;
     padding-top: 56px;
@@ -289,12 +274,12 @@ button.transparent {
 }
 
 #best-rooms .top {
-    margin-bottom: 43px;
+    margin-bottom: 25px;
 }
 
 #best-rooms .top h2 {
     font-family: GildaDisplay;
-    font-size: 41.5px;
+    font-size: 44px;
     line-height: 1.46;
     letter-spacing: normal;
     text-align: center;
@@ -308,7 +293,7 @@ button.transparent {
 }
 
 #best-rooms .rooms aside {
-    width: 428px;
+    width: 430px;
 }
 
 #best-rooms .rooms aside.book-now {
@@ -333,13 +318,18 @@ button.transparent {
 }
 
 #best-rooms .rooms aside.right ul li{
-    flex: 50%;
+    flex: 25%;
 }
+
+#best-rooms .rooms aside.right ul li:nth-child(odd){
+    margin-right: 24px;
+}
+
 
 #best-rooms .room {
     height: 184px;
     width: 203px;
-    margin-bottom: 21px;
+    margin-bottom: 30px;
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -349,14 +339,14 @@ button.transparent {
 }
 
 #best-rooms .room p {
-    font-size: 8.5px;
+    font-size: 9px;
     font-style: normal;
     line-height: 2.41;
     letter-spacing: 0.85px;
     color: white;
     text-transform: uppercase;
     padding-left: 22px;
-    padding-top: 162px;
+    padding-top: 155px;
 }
 
 #best-rooms .rooms .book-now .description {
@@ -366,7 +356,7 @@ button.transparent {
 
 #best-rooms .rooms .book-now .description h3{
     font-family: GildaDisplay;
-    font-size: 22.5px;
+    font-size: 24px;
     line-height: 0.71;
     letter-spacing: normal;
     color: black;
@@ -377,14 +367,14 @@ button.transparent {
     line-height: 1.95;
     letter-spacing: normal;
     color: var(--warm-grey);
-    margin-bottom: 19px;
+    margin-bottom: 16px;
 }
 
 #best-rooms .rooms .book-now button{
     width: 166px;
     height: 35px;
     background-color: var(--black);
-    font-size: 8.5px;
+    font-size: 9px;
     font-weight: 900;
     line-height: 2.41;
     letter-spacing: 0.85px;
@@ -392,13 +382,13 @@ button.transparent {
 }
 
 .rooms aside.book-now ul {
-    margin-top: 12px;
-    margin-bottom: 23px;
+    margin-top: 9px;
+    margin-bottom: 17px;
 }
 
 .rooms aside.book-now ul li{
     display: inline;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 2.28;
     letter-spacing: normal;
     color: var(--warm-grey);  
@@ -436,8 +426,6 @@ li.square {
     vertical-align: super;
     font-size: smaller;
 }
-
-
 /* #best-rooms END*/
 
 /* #check-all */
@@ -537,8 +525,14 @@ li.square {
 #check-all aside.right h2 span{
     color: var(--toupe);
 }
-
 /* #check-all END*/
+
+/* #text-info */
+#text-info {
+    height: 87px;
+    margin-top: 57px;
+    margin-bottom: 57px;
+}
 
 #text-info p {
     font-family: GildaDisplay;
@@ -547,13 +541,6 @@ li.square {
     letter-spacing: normal;
     text-align: center;
     color: black;
-}
-
-/* #text-info */
-#text-info {
-    height: 87px;
-    margin-top: 57px;
-    margin-bottom: 57px;
 }
 /* #text-info END */
 
