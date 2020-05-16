@@ -75,7 +75,7 @@ button {
 /* #top BEGIN */
 #top {
     height: 506px;
-    background-image: url(/img/top.jpg);
+    background-image: url(../img/top.jpg);
     background-position: bottom;
     object-fit: contain;
     padding-top: 70px;
@@ -432,11 +432,11 @@ button.transparent {
 }
 
 li.guests {
-    background-image: url(/img/user.svg);
+    background-image: url(../img/user.svg);
 }
 
 li.square {
-    background-image: url(/img/plan.svg);
+    background-image: url(../img/plan.svg);
 }
 
 .rooms aside.book-now sup {
@@ -473,19 +473,19 @@ li.square {
 }
 
 #check-all aside.left ul li.view.img1{
-    background-image: url(/img/woman-in-white-tank-top-lying-on-gray-bed.jpg);
+    background-image: url(../img/woman-in-white-tank-top-lying-on-gray-bed.jpg);
 }
 
 #check-all aside.left ul li.view.img2{
-    background-image: url(/img/tilt-lens-photography-of-black-wooden-table.jpg);
+    background-image: url(../img/tilt-lens-photography-of-black-wooden-table.jpg);
 }
 
 #check-all aside.left ul li.view.img3{
-    background-image: url(/img/balcony-beach-chairs-empty.jpg);
+    background-image: url(../img/balcony-beach-chairs-empty.jpg);
 }
 
 #check-all aside.left ul li.view.img4{
-    background-image: url(/img/woman-laying-down-on-bed-inside-room.jpg);
+    background-image: url(../img/woman-laying-down-on-bed-inside-room.jpg);
 }
 
 #check-all aside.right {
