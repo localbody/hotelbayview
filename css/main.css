@@ -403,7 +403,7 @@ button.transparent {
 }
 
 .rooms aside.book-now ul li{
-    display: inline;
+    display: inline-block;
     font-size: 10px;
     line-height: 2.28;
     letter-spacing: normal;
@@ -412,8 +412,9 @@ button.transparent {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-left: 17px;
+    padding-left: 27px;
     margin-right: 17px;
+    height: 19px;
 }
 
 .rooms aside.book-now ul li.reviews {
