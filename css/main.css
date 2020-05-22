@@ -1,13 +1,45 @@
-:root {
-    --toupe: #c19b76;
-    --black: #1c1c1c;
-    --warm-grey: #878787;
-  }
+* {
+    background-color: rgba(255, 0, 0, .2);
+}
 
-body, html, button {
+* * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+* * * * {
+    background-color: rgba(255, 0, 255, .2);
+}
+
+* * * * * {
+    background-color: rgba(0, 255, 255, .2);
+}
+
+* * * * * * {
+    background-color: rgba(255, 255, 0, .2);
+}
+
+* * * * * * * {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+* * * * * * * * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * * * * * * * {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+body,
+html,
+button {
     font-family: 'Roboto', sans-serif;
     font-stretch: normal;
-    font-weight: normal; 
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -26,9 +58,11 @@ button {
     display: block;
 }
 
+
 /* header BEGIN */
+
 .header {
-    background-color: var(--black);
+    background-color: #1c1c1c;
 }
 
 .header__inner {
@@ -36,7 +70,7 @@ button {
     height: 38px;
     padding-top: 13px;
     padding-left: 281px;
-    padding-right: 284px; 
+    padding-right: 284px;
 }
 
 .logo__link {
@@ -61,18 +95,22 @@ button {
     line-height: 1.95;
     letter-spacing: -0.11px;
     text-align: left;
-    color: var(--warm-grey);
+    color: #878787;
     padding-bottom: 2px;
 }
 
 .menu__link--active,
 .menu__link:hover {
     color: white;
-    border-bottom: 3px solid var(--warm-grey);
+    border-bottom: 3px solid #878787;
 }
+
+
 /* header END */
 
+
 /* #top BEGIN */
+
 #top {
     height: 506px;
     background-image: url(../img/top.jpg);
@@ -94,13 +132,13 @@ button {
     width: 24px;
     height: 2px;
     background-color: white;
-    border: none; 
+    border: none;
     margin-top: 16px;
     margin-bottom: 9px;
 }
 
 #top h2 {
-    font-family: GildaDisplay;
+    font-family: 'Gilda Display', serif;
     font-size: 55px;
     font-style: normal;
     line-height: 1.25;
@@ -126,10 +164,10 @@ button.transparent {
 
 .availablity {
     display: flex;
-    width: 540px;
+    width: 550px;
     height: 100px;
-    margin: 93px auto 0 auto; 
-    background-color: white; 
+    margin: 93px auto 0 auto;
+    background-color: white;
 }
 
 .availablity button {
@@ -158,7 +196,7 @@ button.transparent {
     height: 40px;
     border: solid 0.8px #a3a3a3;
     background-color: white;
-    font-family: GildaDisplay;
+    font-family: 'Gilda Display', serif;
     font-size: 40px;
     line-height: 0.55;
     letter-spacing: -2.25px;
@@ -183,27 +221,31 @@ button.transparent {
     font-size: 13px;
     line-height: 2.28;
     letter-spacing: -0.54px;
-    color: var(--black);
+    color: #1c1c1c;
     background: transparent;
     vertical-align: top;
     line-height: 42px;
 }
+
+
 /* #top END */
 
+
 /* #about-us */
+
 #about-us {
     padding-top: 87px;
     height: 412px;
     display: flex;
 }
 
-#about-us aside h2{
-    font-family: GildaDisplay;
+#about-us aside h2 {
+    font-family: 'Gilda Display', serif;
     font-size: 60px;
     line-height: 1.01;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: #1c1c1c;
     margin-top: 14px;
     margin-bottom: 17px;
 }
@@ -219,19 +261,19 @@ button.transparent {
     line-height: 1.95;
     letter-spacing: 0.63px;
     text-align: center;
-    color: var(--warm-grey)
+    color: #878787;
 }
 
 #about-us button {
     display: block;
     width: 103px;
     height: 33px;
-    background-color: var(--toupe);
+    background-color: #c19b76;
     color: white;
     font-size: 8.5px;
     font-weight: 900;
     line-height: 2.41;
-    letter-spacing: 0.85px;    
+    letter-spacing: 0.85px;
     margin: 0 auto;
     margin-top: 27px;
 }
@@ -245,26 +287,30 @@ button.transparent {
     position: absolute;
 }
 
-#about-us aside.right img.pic1{
+#about-us aside.right img.pic1 {
     z-index: 1;
     left: 42px;
     top: -11px;
 }
 
-#about-us aside.right img.pic2{
+#about-us aside.right img.pic2 {
     z-index: 2;
     left: 0;
     top: 160px;
 }
 
-#about-us aside.right img.pic3{
+#about-us aside.right img.pic3 {
     z-index: 3;
     left: 318px;
     top: 15px;
 }
+
+
 /* #about-us END */
 
+
 /* #best-rooms */
+
 #best-rooms {
     height: 623px;
     padding-top: 56px;
@@ -283,23 +329,22 @@ button.transparent {
 }
 
 #best-rooms .top h2 {
-    font-family: GildaDisplay;
+    font-family: 'Gilda Display', serif;
     font-size: 44px;
     line-height: 1.46;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: #1c1c1c;
 }
 
 #best-rooms hr.divider {
     width: 24px;
     height: 2px;
     background-color: white;
-    border: none; 
+    border: none;
     margin-top: 3px;
     margin-bottom: 3px;
 }
-
 
 #best-rooms .rooms {
     display: flex;
@@ -316,30 +361,29 @@ button.transparent {
 }
 
 #best-rooms .divider.warm {
-    background-color: var(--warm-grey);
+    background-color: #878787;
 }
 
 #best-rooms .rooms aside.book-now h3 {
-    font-family: GildaDisplay;
+    font-family: 'Gilda Display', serif;
     font-size: 22.5px;
     line-height: 0.71;
     letter-spacing: normal;
-    color: var(--black);
+    color: #1c1c1c;
 }
 
-#best-rooms .rooms aside.right ul{
+#best-rooms .rooms aside.right ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-#best-rooms .rooms aside.right ul li{
+#best-rooms .rooms aside.right ul li {
     flex: 25%;
 }
 
-#best-rooms .rooms aside.right ul li:nth-child(odd){
+#best-rooms .rooms aside.right ul li:nth-child(odd) {
     margin-right: 24px;
 }
-
 
 #best-rooms .room {
     height: 184px;
@@ -370,26 +414,26 @@ button.transparent {
     padding-top: 4px;
 }
 
-#best-rooms .rooms .book-now .description h3{
-    font-family: GildaDisplay;
+#best-rooms .rooms .book-now .description h3 {
+    font-family: 'Gilda Display', serif;
     font-size: 24px;
     line-height: 0.71;
     letter-spacing: normal;
     color: black;
 }
 
-#best-rooms .rooms .book-now .description p{
+#best-rooms .rooms .book-now .description p {
     font-size: 10.5px;
     line-height: 1.95;
     letter-spacing: normal;
-    color: var(--warm-grey);
+    color: #878787;
     margin-bottom: 16px;
 }
 
-#best-rooms .rooms .book-now button{
+#best-rooms .rooms .book-now button {
     width: 166px;
     height: 35px;
-    background-color: var(--black);
+    background-color: #1c1c1c;
     font-size: 9px;
     font-weight: 900;
     line-height: 2.41;
@@ -402,13 +446,13 @@ button.transparent {
     margin-bottom: 21px;
 }
 
-.rooms aside.book-now ul li{
+.rooms aside.book-now ul li {
     display: inline-block;
     font-size: 10px;
     line-height: 2.28;
     letter-spacing: normal;
-    color: var(--warm-grey);  
-    text-transform: uppercase;  
+    color: #878787;
+    text-transform: uppercase;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -443,9 +487,13 @@ li.square {
     vertical-align: super;
     font-size: smaller;
 }
+
+
 /* #best-rooms END*/
 
+
 /* #check-all */
+
 #check-all {
     height: 480px;
     display: flex;
@@ -472,30 +520,30 @@ li.square {
     width: 360px;
 }
 
-#check-all aside.left ul li.view.img1{
+#check-all aside.left ul li.view.img1 {
     background-image: url(../img/woman-in-white-tank-top-lying-on-gray-bed.jpg);
 }
 
-#check-all aside.left ul li.view.img2{
+#check-all aside.left ul li.view.img2 {
     background-image: url(../img/tilt-lens-photography-of-black-wooden-table.jpg);
 }
 
-#check-all aside.left ul li.view.img3{
+#check-all aside.left ul li.view.img3 {
     background-image: url(../img/balcony-beach-chairs-empty.jpg);
 }
 
-#check-all aside.left ul li.view.img4{
+#check-all aside.left ul li.view.img4 {
     background-image: url(../img/woman-laying-down-on-bed-inside-room.jpg);
 }
 
 #check-all aside.right {
-    background-color: var(--black);
+    background-color: #1c1c1c;
     padding-top: 66px;
     padding-left: 75px;
     padding-right: 30px;
 }
 
-#check-all aside.right p{
+#check-all aside.right p {
     font-size: 10.5px;
     line-height: 1.95;
     letter-spacing: 0.53px;
@@ -504,8 +552,8 @@ li.square {
     margin-bottom: 6px;
 }
 
-#check-all aside.right h2{
-    font-family: GildaDisplay;
+#check-all aside.right h2 {
+    font-family: 'Gilda Display', serif;
     font-size: 60px;
     line-height: 1.01;
     letter-spacing: 2.5px;
@@ -513,22 +561,22 @@ li.square {
     margin-bottom: 34px;
 }
 
-#check-all aside.right ul{
+#check-all aside.right ul {
     display: flex;
     margin-bottom: 34px;
 }
 
-#check-all aside.right ul li{
+#check-all aside.right ul li {
     flex: 50%;
     font-size: 10px;
     font-weight: 300;
     line-height: 1.95;
     letter-spacing: 1.1px;
-    color: var(--warm-grey);
+    color: #878787;
     padding-right: 52px;
 }
 
-#check-all aside.right button{
+#check-all aside.right button {
     width: 165px;
     height: 33px;
     background-color: black;
@@ -539,12 +587,16 @@ li.square {
     color: white;
 }
 
-#check-all aside.right h2 span{
-    color: var(--toupe);
+#check-all aside.right h2 span {
+    color: #c19b76;
 }
+
+
 /* #check-all END*/
 
+
 /* #text-info */
+
 #text-info {
     height: 87px;
     margin-top: 48px;
@@ -552,21 +604,25 @@ li.square {
 }
 
 #text-info p {
-    font-family: GildaDisplay;
+    font-family: 'Gilda Display', serif;
     font-size: 21px;
     line-height: 1.6;
     letter-spacing: normal;
     text-align: center;
     color: black;
 }
+
+
 /* #text-info END */
 
+
 /* footer */
+
 footer {
     height: 67px;
     background-color: #151515;
     padding-left: 281px;
-    padding-right: 826px;    
+    padding-right: 826px;
 }
 
 footer nav {
@@ -581,7 +637,7 @@ footer nav ul {
 }
 
 footer nav a {
-    font-family: GildaDisplay;
+    font-family: 'Gilda Display', serif;
     font-size: 12px;
     line-height: 2.16;
     letter-spacing: 0.29px;
@@ -591,6 +647,8 @@ footer nav a {
 footer nav a:hover {
     color: white;
 }
+
+
 /* footer END */
 
 .hotelBayview {
@@ -598,5 +656,5 @@ footer nav a:hover {
     line-height: 1.95;
     letter-spacing: 1.16px;
     text-align: center;
-    color: var(--warm-grey);
+    color: #878787;
 }
