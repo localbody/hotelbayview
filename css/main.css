@@ -1,0 +1,660 @@
+* {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+* * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+* * * * {
+    background-color: rgba(255, 0, 255, .2);
+}
+
+* * * * * {
+    background-color: rgba(0, 255, 255, .2);
+}
+
+* * * * * * {
+    background-color: rgba(255, 255, 0, .2);
+}
+
+* * * * * * * {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+* * * * * * * * {
+    background-color: rgba(0, 255, 0, .2);
+}
+
+* * * * * * * * * {
+    background-color: rgba(0, 0, 255, .2);
+}
+
+body,
+html,
+button {
+    font-family: 'Roboto', sans-serif;
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: unset;
+    cursor: pointer;
+}
+
+#wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* header BEGIN */
+
+.header {
+    background-color: #1c1c1c;
+}
+
+.header__inner {
+    display: flex;
+    height: 38px;
+    padding-top: 13px;
+    padding-left: 281px;
+    padding-right: 284px;
+}
+
+.logo__link {
+    width: 128px;
+    height: 19px;
+}
+
+.menu {
+    width: 100%;
+    padding-left: 300px;
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-size: 10.5px;
+    font-weight: 600;
+    line-height: 1.95;
+    letter-spacing: -0.11px;
+    text-align: left;
+    color: #878787;
+    padding-bottom: 2px;
+}
+
+.menu__link--active,
+.menu__link:hover {
+    color: white;
+    border-bottom: 3px solid #878787;
+}
+
+
+/* header END */
+
+
+/* #top BEGIN */
+
+#top {
+    height: 506px;
+    background-image: url(../img/top.jpg);
+    background-position: bottom;
+    object-fit: contain;
+    padding-top: 70px;
+}
+
+#top h1 {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    font-style: normal;
+    line-height: 2.28;
+    letter-spacing: 1.53px;
+}
+
+#top hr.divider {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+
+#top h2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+button.transparent {
+    width: 144px;
+    height: 36px;
+    border: solid 1.5px #ffffff;
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
+    color: white;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    margin-top: 33px;
+}
+
+.availablity {
+    display: flex;
+    width: 550px;
+    height: 100px;
+    margin: 93px auto 0 auto;
+    background-color: white;
+}
+
+.availablity button {
+    width: 135px;
+    background-color: black;
+}
+
+.availablity__item {
+    flex: 25%;
+    padding-left: 35px;
+}
+
+.availablity__item label {
+    display: block;
+    width: 57px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: 0.72px;
+    color: #a3a3a3;
+    margin-top: 18px;
+}
+
+.availablity__item input {
+    width: 57px;
+    height: 40px;
+    border: solid 0.8px #a3a3a3;
+    background-color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 40px;
+    line-height: 0.55;
+    letter-spacing: -2.25px;
+    text-align: center;
+}
+
+.availablity__item button {
+    background-color: black;
+    height: 100%;
+    color: white;
+    font-size: 9px;
+    line-height: 1.72;
+    letter-spacing: 1.53px;
+}
+
+.availablity__item select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    font-family: GildaDisplay;
+    font-size: 13px;
+    line-height: 2.28;
+    letter-spacing: -0.54px;
+    color: #1c1c1c;
+    background: transparent;
+    vertical-align: top;
+    line-height: 42px;
+}
+
+
+/* #top END */
+
+
+/* #about-us */
+
+#about-us {
+    padding-top: 87px;
+    height: 412px;
+    display: flex;
+}
+
+#about-us aside h2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 60px;
+    line-height: 1.01;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+
+#about-us aside.left {
+    margin-left: 300px;
+    width: 360px;
+}
+
+#about-us aside p {
+    font-family: Roboto;
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 0.63px;
+    text-align: center;
+    color: #878787;
+}
+
+#about-us button {
+    display: block;
+    width: 103px;
+    height: 33px;
+    background-color: #c19b76;
+    color: white;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+#about-us aside.right {
+    position: relative;
+    margin-left: 37px;
+}
+
+#about-us aside.right img {
+    position: absolute;
+}
+
+#about-us aside.right img.pic1 {
+    z-index: 1;
+    left: 42px;
+    top: -11px;
+}
+
+#about-us aside.right img.pic2 {
+    z-index: 2;
+    left: 0;
+    top: 160px;
+}
+
+#about-us aside.right img.pic3 {
+    z-index: 3;
+    left: 318px;
+    top: 15px;
+}
+
+
+/* #about-us END */
+
+
+/* #best-rooms */
+
+#best-rooms {
+    height: 623px;
+    padding-top: 56px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+#best-rooms .top,
+#best-rooms .rooms {
+    width: 877px;
+    margin: 0 auto;
+}
+
+#best-rooms .top {
+    margin-bottom: 25px;
+}
+
+#best-rooms .top h2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 44px;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+#best-rooms hr.divider {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#best-rooms .rooms {
+    display: flex;
+    justify-content: space-between;
+    height: 392px;
+}
+
+#best-rooms .rooms aside {
+    width: 430px;
+}
+
+#best-rooms .rooms aside.book-now {
+    background-color: white;
+}
+
+#best-rooms .divider.warm {
+    background-color: #878787;
+}
+
+#best-rooms .rooms aside.book-now h3 {
+    font-family: 'Gilda Display', serif;
+    font-size: 22.5px;
+    line-height: 0.71;
+    letter-spacing: normal;
+    color: #1c1c1c;
+}
+
+#best-rooms .rooms aside.right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#best-rooms .rooms aside.right ul li {
+    flex: 25%;
+}
+
+#best-rooms .rooms aside.right ul li:nth-child(odd) {
+    margin-right: 24px;
+}
+
+#best-rooms .room {
+    height: 184px;
+    width: 203px;
+    margin-bottom: 23px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#best-rooms .room.room_long {
+    width: 100%;
+}
+
+#best-rooms .room p {
+    font-size: 9px;
+    font-style: normal;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 22px;
+    padding-top: 155px;
+}
+
+#best-rooms .rooms .book-now .description {
+    padding-left: 22px;
+    padding-right: 94px;
+    padding-top: 4px;
+}
+
+#best-rooms .rooms .book-now .description h3 {
+    font-family: 'Gilda Display', serif;
+    font-size: 24px;
+    line-height: 0.71;
+    letter-spacing: normal;
+    color: black;
+}
+
+#best-rooms .rooms .book-now .description p {
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: normal;
+    color: #878787;
+    margin-bottom: 16px;
+}
+
+#best-rooms .rooms .book-now button {
+    width: 166px;
+    height: 35px;
+    background-color: #1c1c1c;
+    font-size: 9px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.rooms aside.book-now ul {
+    margin-top: 9px;
+    margin-bottom: 21px;
+}
+
+.rooms aside.book-now ul li {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 2.28;
+    letter-spacing: normal;
+    color: #878787;
+    text-transform: uppercase;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 27px;
+    margin-right: 17px;
+    height: 19px;
+}
+
+.rooms aside.book-now ul li.reviews {
+    padding-left: 0;
+}
+
+.rooms aside.book-now ul li.reviews span {
+    width: 21px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+li.guests {
+    background-image: url(../img/user.svg);
+}
+
+li.square {
+    background-image: url(../img/plan.svg);
+}
+
+.rooms aside.book-now sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+/* #best-rooms END*/
+
+
+/* #check-all */
+
+#check-all {
+    height: 480px;
+    display: flex;
+}
+
+#check-all aside {
+    flex: 50%;
+    box-sizing: border-box;
+}
+
+#check-all aside.left {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#check-all aside.left ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#check-all aside.left ul li.view {
+    height: 240px;
+    width: 360px;
+}
+
+#check-all aside.left ul li.view.img1 {
+    background-image: url(../img/woman-in-white-tank-top-lying-on-gray-bed.jpg);
+}
+
+#check-all aside.left ul li.view.img2 {
+    background-image: url(../img/tilt-lens-photography-of-black-wooden-table.jpg);
+}
+
+#check-all aside.left ul li.view.img3 {
+    background-image: url(../img/balcony-beach-chairs-empty.jpg);
+}
+
+#check-all aside.left ul li.view.img4 {
+    background-image: url(../img/woman-laying-down-on-bed-inside-room.jpg);
+}
+
+#check-all aside.right {
+    background-color: #1c1c1c;
+    padding-top: 66px;
+    padding-left: 75px;
+    padding-right: 30px;
+}
+
+#check-all aside.right p {
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 0.53px;
+    text-align: left;
+    color: white;
+    margin-bottom: 6px;
+}
+
+#check-all aside.right h2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 60px;
+    line-height: 1.01;
+    letter-spacing: 2.5px;
+    color: white;
+    margin-bottom: 34px;
+}
+
+#check-all aside.right ul {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+#check-all aside.right ul li {
+    flex: 50%;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.95;
+    letter-spacing: 1.1px;
+    color: #878787;
+    padding-right: 52px;
+}
+
+#check-all aside.right button {
+    width: 165px;
+    height: 33px;
+    background-color: black;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+#check-all aside.right h2 span {
+    color: #c19b76;
+}
+
+
+/* #check-all END*/
+
+
+/* #text-info */
+
+#text-info {
+    height: 87px;
+    margin-top: 48px;
+    margin-bottom: 57px;
+}
+
+#text-info p {
+    font-family: 'Gilda Display', serif;
+    font-size: 21px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+
+
+/* #text-info END */
+
+
+/* footer */
+
+footer {
+    height: 67px;
+    background-color: #151515;
+    padding-left: 281px;
+    padding-right: 826px;
+}
+
+footer nav {
+    width: 100%;
+    padding-top: 21px;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer nav a {
+    font-family: 'Gilda Display', serif;
+    font-size: 12px;
+    line-height: 2.16;
+    letter-spacing: 0.29px;
+    color: white;
+}
+
+footer nav a:hover {
+    color: white;
+}
+
+
+/* footer END */
+
+.hotelBayview {
+    font-size: 10.5px;
+    line-height: 1.95;
+    letter-spacing: 1.16px;
+    text-align: center;
+    color: #878787;
+}
