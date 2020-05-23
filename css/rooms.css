@@ -1,0 +1,181 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+/* .header start */
+
+.header__inner {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+
+/* .header end */
+
+
+/* .main begin */
+
+.main__top {
+    box-sizing: border-box;
+    height: 295px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.main__top--rooms {
+    background-image: url(../img/top-rooms.jpg);
+    padding-top: 100px;
+}
+
+.main__title {
+    font-family: 'Gilda Display', serif;
+    font-size: 52px;
+    line-height: 1.29;
+    letter-spacing: -4.16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main__content {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+
+/* .filter begin */
+
+.form-item::after {
+    display: block;
+    margin-top: 19px;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.filter {
+    max-width: 278px;
+}
+
+.date-guests {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 278px;
+    height: 312px;
+    background-color: #151515;
+    color: white;
+}
+
+.filter__title {
+    font-family: 'Gilda Display', serif;
+    font-size: 15px;
+    line-height: 1.37;
+    letter-spacing: -0.6px;
+}
+
+.filter__title--white {
+    margin-top: 38px;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.filter__title--black {
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+.filter__items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-items: center;
+}
+
+.filter__item {
+    display: grid;
+}
+
+.filter__item--date {
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content min-content;
+    grid-template-areas: "label label" "date month";
+}
+
+.filter__item--count {
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
+    grid-template-areas: "label" "count";
+}
+
+.filter__label {
+    grid-area: label;
+    align-self: center;
+    justify-self: center;
+    font-size: 11px;
+    /* line-height: 2.28; */
+    letter-spacing: 0.72px;
+}
+
+.filter__input {
+    border: none;
+    font-size: 37.5px;
+    width: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    font-family: 'Gilda Display', serif;
+    font-size: 37.5px;
+    line-height: 0.55;
+    letter-spacing: -2.25px;
+    text-align: center;
+    color: #c19b76;
+}
+
+.filter__input--date {
+    grid-area: date;
+    justify-self: end;
+}
+
+.filter__input--count {
+    grid-area: count;
+    justify-self: center;
+}
+
+.filter__month {
+    grid-area: month;
+    justify-self: center;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-family: 'Gilda Display', serif;
+    line-height: 2.28;
+    letter-spacing: -0.54px;
+    text-align: center;
+    color: #c19b76;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+/* .filter end */
+
+
+/* .main end */
+
+
+/* .footer begin */
+
+.footer {}
+
+
+/* .footer end */
