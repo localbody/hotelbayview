@@ -1,0 +1,469 @@
+/* #top BEGIN */
+
+.top--bg-home {
+    height: 506px;
+    background-image: url(../img/top-home.jpg);
+    background-position: center;
+}
+
+.top__title {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    font-style: normal;
+    line-height: 2.28;
+    letter-spacing: 1.53px;
+}
+
+.small-divider {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+
+.small-divider--gray {
+    background-color: #878787;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.top__subtitle {
+    font-family: 'Gilda Display', serif;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+.availablity {
+    display: flex;
+    width: 550px;
+    height: 100px;
+    margin: 93px auto 0 auto;
+    background-color: white;
+}
+
+.availablity button {
+    width: 135px;
+    background-color: black;
+}
+
+.availablity__item {
+    flex: 25%;
+    padding-left: 35px;
+}
+
+.availablity__item label {
+    display: block;
+    width: 57px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: 0.72px;
+    color: #a3a3a3;
+    margin-top: 18px;
+}
+
+.availablity__item input {
+    width: 57px;
+    height: 40px;
+    border: solid 0.8px #a3a3a3;
+    background-color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 40px;
+    line-height: 0.55;
+    letter-spacing: -2.25px;
+    text-align: center;
+}
+
+.availablity__item button {
+    background-color: black;
+    height: 100%;
+    color: white;
+    font-size: 9px;
+    line-height: 1.72;
+    letter-spacing: 1.53px;
+}
+
+.availablity__item select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    font-family: GildaDisplay;
+    font-size: 13px;
+    line-height: 2.28;
+    letter-spacing: -0.54px;
+    color: #1c1c1c;
+    background: transparent;
+    vertical-align: top;
+    line-height: 42px;
+}
+
+
+/* #top END */
+
+
+/* #about-us */
+
+.about-us {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 412px;
+    padding-top: 87px;
+}
+
+.about-us__subtitle {
+    font-family: 'Gilda Display', serif;
+    font-size: 60px;
+    line-height: 1.01;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+
+.about-us__left {
+    width: 360px;
+}
+
+.about-us__subtitle {
+    font-size: 60px;
+    font-family: 'Gilda Display', serif;
+    line-height: 1;
+    color: #1c1c1c;
+}
+
+.about-us__description {
+    font-size: 10.5px;
+    line-height: 1.95;
+    margin: 10px auto 25px;
+    color: #878787;
+    text-align: center;
+}
+
+.about-us__button {
+    display: block;
+    width: 103px;
+    height: 33px;
+    background-color: #c19b76;
+    color: white;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+.about-us__right {
+    position: relative;
+    margin-left: 37px;
+}
+
+.about-us__img {
+    position: absolute;
+}
+
+.about-us__img--pic1 {
+    z-index: 1;
+    left: 42px;
+    top: -11px;
+}
+
+.about-us__img--pic2 {
+    z-index: 2;
+    left: 0;
+    top: 160px;
+}
+
+.about-us__img--pic3 {
+    z-index: 3;
+    left: 318px;
+    top: 15px;
+}
+
+
+/* #about-us END */
+
+
+/* #best-rooms */
+
+.best-rooms {
+    height: 623px;
+    padding-top: 56px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.best-rooms__title {
+    font-family: 'Gilda Display', serif;
+    font-size: 44px;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+.best-rooms__wrapper {
+    width: 880px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-rooms__room-detail {
+    width: 428px;
+    background-color: white;
+}
+
+.best-rooms__room-detail-img {
+    width: 428px;
+    height: 185px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 162px;
+    padding-left: 22px;
+}
+
+.best-rooms__room-name {
+    text-transform: uppercase;
+    font-size: 8.5px;
+    color: #fff;
+}
+
+.best-rooms__room-wrapper {
+    padding: 26px 22px;
+}
+
+.best-rooms__room-title {
+    font-size: 22.5px;
+    font-family: 'Gilda Display', serif;
+    line-height: 0.8;
+    color: #000;
+}
+
+.best-rooms__list {
+    width: 428px;
+}
+
+.best-rooms__room-detail-items {
+    margin-top: 9px;
+    margin-bottom: 21px;
+}
+
+.best-rooms__room-detail-item {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 2.28;
+    letter-spacing: normal;
+    color: #878787;
+    text-transform: uppercase;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 27px;
+    margin-right: 17px;
+    height: 19px;
+}
+
+.bg-reviews {
+    width: 21px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.best-rooms__room-about {
+    color: #878787;
+    line-height: 2;
+    font-size: 10.5px;
+}
+
+.book-now__button {
+    width: 166px;
+    height: 35px;
+    background-color: #1c1c1c;
+    font-size: 9px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.best-rooms__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 22px;
+}
+
+.best-rooms__item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 185px;
+    box-sizing: border-box;
+    padding-top: 162px;
+    padding-left: 22px;
+    color: white;
+    font-size: 8.5px;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    text-transform: uppercase;
+}
+
+.bg-atelier {
+    background-image: url(../img/apartment.jpg);
+}
+
+.bg-piazza {
+    background-image: url(../img/hotel.jpg);
+}
+
+.bg-gallery {
+    background-image: url(../img/cozy-modern-bedroom.jpg);
+}
+
+.bg-grand-piazza-suite {
+    background-image: url(../img/interior.jpg);
+}
+
+
+/*--------*/
+
+
+/* #best-rooms END*/
+
+
+/* #check-all */
+
+.check-all {
+    height: 480px;
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.check-all__4images {
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.check-all__4images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.check-all__image {
+    height: 240px;
+    width: 360px;
+}
+
+.image1 {
+    background-image: url(../img/woman-in-white-tank-top-lying-on-gray-bed.jpg);
+}
+
+.image2 {
+    background-image: url(../img/tilt-lens-photography-of-black-wooden-table.jpg);
+}
+
+.image3 {
+    background-image: url(../img/balcony-beach-chairs-empty.jpg);
+}
+
+.image4 {
+    background-image: url(../img/woman-laying-down-on-bed-inside-room.jpg);
+}
+
+.check-all__about {
+    flex: 50%;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    padding-top: 66px;
+    padding-left: 75px;
+    padding-right: 30px;
+}
+
+.check-all__subject {
+    font-size: 10.5px;
+    letter-spacing: 1.16px;
+    line-height: 2;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+}
+
+.check-all__title {
+    font-family: 'Gilda Display', serif;
+    font-size: 60px;
+    line-height: 1.01;
+    letter-spacing: 2.5px;
+    color: white;
+    margin-bottom: 34px;
+}
+
+.check-all__title--toupe {
+    color: #c19b76;
+}
+
+.check-all__about-items {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.check-all__about-item {
+    flex: 50%;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.95;
+    letter-spacing: 1.1px;
+    color: #878787;
+    padding-right: 52px;
+}
+
+.check-all__button {
+    width: 165px;
+    height: 33px;
+    background-color: black;
+    font-size: 8.5px;
+    font-weight: 900;
+    line-height: 2.41;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+
+/* .check-all END*/
+
+
+/* .text-info */
+
+.text-info {
+    height: 87px;
+    margin-top: 48px;
+    margin-bottom: 57px;
+}
+
+.text-info__paragraph {
+    font-family: 'Gilda Display', serif;
+    font-size: 21px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+
+
+/* .text-info END */

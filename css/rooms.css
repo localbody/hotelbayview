@@ -1,52 +1,7 @@
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0;
-    /* <-- Apparently some margin are still there even though it's hidden */
-}
-
-
-/* .header start */
-
-.header__inner {
-    max-width: 880px;
-    margin: 0 auto;
-}
-
-
-/* .header end */
-
-
 /* .main begin */
 
-.main__top {
-    box-sizing: border-box;
-    height: 295px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-}
 
-.main__top--rooms {
-    background-image: url(../img/top-rooms.jpg);
-    padding-top: 100px;
-}
-
-.main__title {
-    font-family: 'Gilda Display', serif;
-    font-size: 52px;
-    line-height: 1.29;
-    letter-spacing: -4.16px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.main__content {
-    max-width: 880px;
-    margin: 0 auto;
-}
+/* .main end */
 
 
 /* .filter begin */

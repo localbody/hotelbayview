@@ -1,128 +1,10 @@
-/* 
-* {
-    background-color: rgba(255, 0, 0, .2);
-}
-
-* * {
-    background-color: rgba(0, 255, 0, .2);
-}
-
-* * * {
-    background-color: rgba(0, 0, 255, .2);
-}
-
-* * * * {
-    background-color: rgba(255, 0, 255, .2);
-}
-
-* * * * * {
-    background-color: rgba(0, 255, 255, .2);
-}
-
-* * * * * * {
-    background-color: rgba(255, 255, 0, .2);
-}
-
-* * * * * * * {
-    background-color: rgba(255, 0, 0, .2);
-}
-
-* * * * * * * * {
-    background-color: rgba(0, 255, 0, .2);
-}
-
-* * * * * * * * * {
-    background-color: rgba(0, 0, 255, .2);
-}
- */
-
-body,
-html,
-button {
-    font-family: 'Roboto', sans-serif;
-    font-stretch: normal;
-    font-weight: normal;
-    font-style: normal;
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    border: unset;
-    cursor: pointer;
-}
-
-
-/* header BEGIN */
-
-.header {
-    background-color: #1c1c1c;
-}
-
-.header__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 52px;
-    width: 880px;
-    margin: 0 auto;
-}
-
-.logo {
-    width: 128px;
-    height: 19px;
-}
-
-.logo__link {}
-
-.header-menu {
-    width: 450px;
-    height: 19px;
-}
-
-.header-menu__list {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.header-menu__link {
-    font-size: 10.5px;
-    font-weight: 600;
-    line-height: 1.95;
-    letter-spacing: -0.11px;
-    text-align: left;
-    color: #878787;
-    padding-bottom: 2px;
-}
-
-.header-menu__link--active,
-.header-menu__link:hover {
-    color: white;
-    border-bottom: 3px solid #878787;
-}
-
-
-/* header END */
-
-
 /* .main begin */
-
-.main {}
-
-.top {
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 288px;
-}
 
 .top--bg-room {
     background-image: url(../img/top-room.jpg);
     padding-top: 230px;
-    box-sizing: border-box;
+    height: 288px;
+    background-position: center;
 }
 
 .top__sub {
@@ -209,10 +91,6 @@ button {
     background-size: contain;
 }
 
-.room__image--adriatic-suite {
-    background-image: url(../img/room/adriatic-suite.jpg);
-}
-
 .room-info__list {
     display: flex;
     justify-content: space-around;
@@ -237,7 +115,7 @@ button {
     margin-right: 5px;
 }
 
-.room-info__item--gray {
+.room-info__item--column {
     color: #878787;
     font-size: 10.5px;
     flex-direction: column;
@@ -260,22 +138,6 @@ button {
 
 .room-info__item-text {
     letter-spacing: 1.19px;
-}
-
-.icon-guest {
-    background-image: url(../img/svg/guest.svg);
-}
-
-.icon-square {
-    background-image: url(../img/svg/square.svg);
-}
-
-.icon-price {
-    background-image: url(../img/svg/price.svg);
-}
-
-.icon-week-price {
-    background-image: url(../img/svg/week-price.svg);
 }
 
 .room-services-title {
@@ -306,42 +168,6 @@ button {
     color: #878787;
     letter-spacing: 0.63px;
     font-size: 10.5px;
-}
-
-.icon-television {
-    background-image: url(../img/svg/television.svg);
-}
-
-.icon-no-smoking {
-    background-image: url(../img/svg/no-smoking.svg);
-}
-
-.icon-beach {
-    background-image: url(../img/svg/beach.svg);
-}
-
-.icon-bathroom {
-    background-image: url(../img/svg/bathroom.svg);
-}
-
-.icon-bike {
-    background-image: url(../img/svg/bike.svg);
-}
-
-.icon-breakfast {
-    background-image: url(../img/svg/breakfast.svg);
-}
-
-.icon-drink {
-    background-image: url(../img/svg/drink.svg);
-}
-
-.icon-loundry {
-    background-image: url(../img/svg/loundry.svg);
-}
-
-.icon-beds {
-    background-image: url(../img/svg/beds.svg);
 }
 
 .book-now {
@@ -431,65 +257,3 @@ button {
 
 
 /* .main end */
-
-
-/* footer */
-
-.footer {
-    background-color: #151515;
-}
-
-.footer__nav {
-    width: 290px;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    padding-right: 590px;
-    margin: 0 auto;
-}
-
-.footer__menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.footer-menu-item {
-    font-family: 'Gilda Display', serif;
-    font-size: 12px;
-    line-height: 2.16;
-    letter-spacing: 0.29px;
-    color: white;
-}
-
-.footer-menu-item:hover {
-    color: white;
-}
-
-
-/* .footer end */
-
-.divider {
-    width: 100%;
-    height: 3px;
-    background-color: #f9f9f9;
-}
-
-.my-30 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.mt-30 {
-    margin-top: 30px;
-}
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
-.room-description {
-    font-size: 10.5px;
-    line-height: 1.95;
-    letter-spacing: 0.63px;
-    color: #878787;
-}
