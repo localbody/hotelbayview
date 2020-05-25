@@ -117,12 +117,24 @@ sup {
 
 /* .main begin */
 
-.main {}
+.main {
+    display: grid;
+}
 
 .top {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
+}
+
+.top__subtitle {
+    font-family: 'Gilda Display', serif;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
 }
 
 .book-now {

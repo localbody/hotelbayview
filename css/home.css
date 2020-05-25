@@ -28,16 +28,6 @@
     margin-bottom: 3px;
 }
 
-.top__subtitle {
-    font-family: 'Gilda Display', serif;
-    font-size: 55px;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: white;
-}
-
 .availablity {
     display: flex;
     width: 550px;

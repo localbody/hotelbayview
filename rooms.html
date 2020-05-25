@@ -47,11 +47,11 @@
 
     <main class="main">
 
-        <section class="main__top main__top--rooms">
-            <h1 class="main__title">SEARCH</h1>
+        <section class="top top--rooms">
+            <h1 class="top__subtitle top__subtitle--rooms">SEARCH</h1>
         </section>
 
-        <section class="main__content">
+        <section class="content">
             <div class="filter">
                 <form class="form">
                     <div class="form-item date-guests">
@@ -62,7 +62,7 @@
                                 <span class="filter__label">
                                     CHECK-IN
                                 </span>
-                                <input class="filter__input filter__input--date" type="number" value="23">
+                                <input class="filter__input filter__input--date" value="23">
                                 <select class="filter__month">
                                     <option value="1">Jan</option>
                                     <option value="2">Feb</option>
@@ -83,7 +83,7 @@
                                 <span class="filter__label">
                                     CHECK-OUT
                                 </span>
-                                <input class="filter__input filter__input--date" type="number" value="23">
+                                <input class="filter__input filter__input--date" value="23">
                                 <select class="filter__month">
                                     <option value="1">Jan</option>
                                     <option value="2">Feb</option>
@@ -104,176 +104,180 @@
                                 <span class="filter__label">
                                     GUEST
                                 </span>
-                                <input class="filter__input filter__input--count" type="number" value="2">
+                                <input class="filter__input filter__input--count" value="2">
                             </div>
 
                             <div class="filter__item filter__item--count">
                                 <span class="filter__label">
                                     NIGHTS
                                 </span>
-                                <input class="filter__input filter__input--count" type="number" value="9">
+                                <input class="filter__input filter__input--count" value="9">
 
                             </div>
                         </div>
 
                     </div>
 
+                    <hr>
+
                     <div class="form-item services">
-                        <h2 class="filter__title filter__title-black">
+                        <h2 class="filter__title filter__title--black">
                             Services
                         </h2>
                         <ul class="services__items">
-                            <div class="services__items-left">
-                                <li class="services__item"><label><input type="checkbox">Animal Allowed</label></li>
-                                <li class="services__item"><label><input type="checkbox">Smooking Room</label></li>
-                                <li class="services__item"><label><input type="checkbox">Sea View</label></li>
-                            </div>
-                            <div class="services__items-right>
-                                <li class=" services__item "><label><input type="checkbox ">Swimming Pool</label></li>
-                                <li class="services__item "><label><input type="checkbox ">Wifi 24 H</label></li>
-                                <li class="services__item "><label><input type="checkbox ">Breakfast Included</label></li>
-                            </div>
+                            <li class="services__item"><label><input type="checkbox">Animal Allowed</label></li>
+                            <li class="services__item"><label><input type="checkbox">Smooking Room</label></li>
+                            <li class="services__item"><label><input type="checkbox">Sea View</label></li>
+                            <li class="services__item"><label><input type="checkbox">Swimming Pool</label></li>
+                            <li class="services__item"><label><input type="checkbox">Wifi 24 H</label></li>
+                            <li class="services__item"><label><input type="checkbox">Breakfast Included</label></li>
                         </ul>
                     </div>
 
-                    <div class="form-item room-size ">
-                        <h2 class="filter__title ">
+                    <hr>
+
+                    <div class="form-item room-size">
+                        <h2 class="filter__title filter__title--black">
                             Room Size
                         </h2>
-                        <input class="filter__square filter__square--start " type="number " placeholder="0 ">-
-                        <input class="filter__square filter__square--end " type="number " placeholder="0 ">M
+                        <input class="filter__square filter__square--start" placeholder="0">-
+                        <input class="filter__square filter__square--end" placeholder="0">M
                         <sup>2</sup>
                     </div>
 
-                    <div class="form-item reviews ">
-                        <h2 class="filter__title ">
+                    <hr>
+
+                    <div class="form-item reviews filter__title--black">
+                        <h2 class="filter__title">
                             Reviews
                         </h2>
-                        <ul class="reviews__items ">
-                            <li class="reviews__item ">0.0</li>
-                            <li class="reviews__item ">2.0</li>
-                            <li class="reviews__item ">4.0</li>
-                            <li class="reviews__item ">6.0</li>
-                            <li class="reviews__item ">8.0</li>
-                            <li class="reviews__item ">10</li>
+                        <ul class="reviews__items">
+                            <li class="reviews__item">0.0</li>
+                            <li class="reviews__item">2.0</li>
+                            <li class="reviews__item">4.0</li>
+                            <li class="reviews__item">6.0</li>
+                            <li class="reviews__item">8.0</li>
+                            <li class="reviews__item">10</li>
                         </ul>
                     </div>
+
+                    <hr>
 
                 </form>
             </div>
 
-            <div class="rooms ">
+            <div class="rooms">
 
-                <div class="room ">
-                    <div class="room__top room__top--adriatic-suite ">
-                        <h4 class="room__top-title ">
+                <div class="room">
+                    <div class="room__top room__top--adriatic-suite">
+                        <h4 class="room__top-title">
                             Adriatic Suite
                         </h4>
                     </div>
 
-                    <div class="room__description ">
-                        <h3 class="room__title ">
+                    <div class="room__description">
+                        <h3 class="room__title">
                             Adriatic Suite
                         </h3>
 
-                        <ul class="room-info ">
-                            <li class="room-info__item "><span class="room-info__reviews ">7.5</span>5 reviews</li>
-                            <li class="room-info__item "><span class="room-info__guests "></span>3 guests</li>
-                            <li class="room-info__item "><span class="room-info__square "></span>57 m<sup>2</sup></li>
+                        <ul class="room-info">
+                            <li class="room-info__item"><span class="room-info__reviews">7.5</span>5 reviews</li>
+                            <li class="room-info__item"><span class="room-info__guests"></span>3 guests</li>
+                            <li class="room-info__item"><span class="room-info__square"></span>57 m<sup>2</sup></li>
                         </ul>
 
-                        <p class="room__about ">
+                        <p class="room__about">
                             Offering 2 balconies and views of Rovinj’s Main Square and the lively waterfront.
                         </p>
 
-                        <button class="room__button ">
+                        <button class="room__button">
                             Book now from 300$
                         </button>
 
                     </div>
                 </div>
 
-                <div class="room ">
-                    <div class="room__top room__top--adriatic-suite ">
-                        <h4 class="room__top-title ">
+                <div class="room">
+                    <div class="room__top room__top--adriatic-suite">
+                        <h4 class="room__top-title">
                             Adriatic Suite
                         </h4>
                     </div>
 
-                    <div class="room__description ">
-                        <h3 class="room__title ">
+                    <div class="room__description">
+                        <h3 class="room__title">
                             Adriatic Suite
                         </h3>
 
-                        <ul class="room-info ">
-                            <li class="room-info__item "><span class="room-info__reviews ">7.5</span>5 reviews</li>
-                            <li class="room-info__item "><span class="room-info__guests "></span>3 guests</li>
-                            <li class="room-info__item "><span class="room-info__square "></span>57 m<sup>2</sup></li>
+                        <ul class="room-info">
+                            <li class="room-info__item"><span class="room-info__reviews">7.5</span>5 reviews</li>
+                            <li class="room-info__item"><span class="room-info__guests"></span>3 guests</li>
+                            <li class="room-info__item"><span class="room-info__square"></span>57 m<sup>2</sup></li>
                         </ul>
 
-                        <p class="room__about ">
+                        <p class="room__about">
                             Offering 2 balconies and views of Rovinj’s Main Square and the lively waterfront.
                         </p>
 
-                        <button class="room__button ">
+                        <button class="room__button">
                             Book now from 300$
                         </button>
 
                     </div>
                 </div>
 
-                <div class="room ">
-                    <div class="room__top room__top--adriatic-suite ">
-                        <h4 class="room__top-title ">
+                <div class="room">
+                    <div class="room__top room__top--adriatic-suite">
+                        <h4 class="room__top-title">
                             Adriatic Suite
                         </h4>
                     </div>
 
-                    <div class="room__description ">
-                        <h3 class="room__title ">
+                    <div class="room__description">
+                        <h3 class="room__title">
                             Adriatic Suite
                         </h3>
 
-                        <ul class="room-info ">
-                            <li class="room-info__item "><span class="room-info__reviews ">7.5</span>5 reviews</li>
-                            <li class="room-info__item "><span class="room-info__guests "></span>3 guests</li>
-                            <li class="room-info__item "><span class="room-info__square "></span>57 m<sup>2</sup></li>
+                        <ul class="room-info">
+                            <li class="room-info__item"><span class="room-info__reviews">7.5</span>5 reviews</li>
+                            <li class="room-info__item"><span class="room-info__guests"></span>3 guests</li>
+                            <li class="room-info__item"><span class="room-info__square"></span>57 m<sup>2</sup></li>
                         </ul>
 
-                        <p class="room__about ">
+                        <p class="room__about">
                             Offering 2 balconies and views of Rovinj’s Main Square and the lively waterfront.
                         </p>
 
-                        <button class="room__button ">
+                        <button class="room__button">
                             Book now from 300$
                         </button>
 
                     </div>
                 </div>
 
-                <div class="room ">
-                    <div class="room__top room__top--adriatic-suite ">
-                        <h4 class="room__top-title ">
+                <div class="room">
+                    <div class="room__top room__top--adriatic-suite">
+                        <h4 class="room__top-title">
                             Adriatic Suite
                         </h4>
                     </div>
 
-                    <div class="room__description ">
-                        <h3 class="room__title ">
+                    <div class="room__description">
+                        <h3 class="room__title">
                             Adriatic Suite
                         </h3>
 
-                        <ul class="room-info ">
-                            <li class="room-info__item "><span class="room-info__reviews ">7.5</span>5 reviews</li>
-                            <li class="room-info__item "><span class="room-info__guests "></span>3 guests</li>
-                            <li class="room-info__item "><span class="room-info__square "></span>57 m<sup>2</sup></li>
+                        <ul class="room-info">
+                            <li class="room-info__item"><span class="room-info__reviews">7.5</span>5 reviews</li>
+                            <li class="room-info__item"><span class="room-info__guests"></span>3 guests</li>
+                            <li class="room-info__item"><span class="room-info__square"></span>57 m<sup>2</sup></li>
                         </ul>
 
-                        <p class="room__about ">
+                        <p class="room__about">
                             Offering 2 balconies and views of Rovinj’s Main Square and the lively waterfront.
                         </p>
 
-                        <button class="room__button ">
+                        <button class="room__button">
                             Book now from 300$
                         </button>
 
@@ -285,14 +289,14 @@
 
     </main>
 
-    <footer class="footer ">
-        <nav class="footer__nav ">
-            <ul class="footer__menu ">
-                <li><a class="footer-menu-item " href="index.html ">Home</a></li>
-                <li><a class="footer-menu-item " href="# ">About Us</a></li>
-                <li><a class="footer-menu-item " href="# ">Services</a></li>
-                <li><a class="footer-menu-item " href="# ">Booking</a></li>
-                <li><a class="footer-menu-item " href="# ">Contact</a></li>
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__menu">
+                <li><a class="footer-menu-item " href="index.html">Home</a></li>
+                <li><a class="footer-menu-item " href="#">About Us</a></li>
+                <li><a class="footer-menu-item " href="#">Services</a></li>
+                <li><a class="footer-menu-item " href="#">Booking</a></li>
+                <li><a class="footer-menu-item " href="#">Contact</a></li>
             </ul>
         </nav>
     </footer>

@@ -1,18 +1,37 @@
-/* .main begin */
+/* main begin */
+
+.top--rooms {
+    background-image: url(../img/top-rooms.jpg);
+    height: 290px;
+    width: 100%;
+}
+
+.top__subtitle--rooms {
+    margin-top: 108px;
+}
+
+.content {
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
 
 
-/* .main end */
+/* main end */
 
 
 /* .filter begin */
 
-.form-item::after {
+hr {
     display: block;
-    margin-top: 19px;
-    content: "";
+    margin-top: 29px;
+    margin-bottom: 29px;
     height: 3px;
     width: 100%;
     background-color: #f9f9f9;
+    border: none;
+    padding: 0;
 }
 
 .filter {
@@ -49,8 +68,10 @@
 
 .filter__items {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+    grid-template-columns: 110px 110px;
+    grid-template-rows: 92px 92px;
+    row-gap: 14px;
+    justify-content: center;
     justify-items: center;
 }
 
@@ -82,10 +103,7 @@
 .filter__input {
     border: none;
     font-size: 37.5px;
-    width: 40px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    width: 44px;
     background: transparent;
     font-family: 'Gilda Display', serif;
     font-size: 37.5px;
@@ -121,7 +139,19 @@
     -moz-appearance: none;
 }
 
+.services__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.filter__square {
+    width: 29px;
+    height: 24px;
+    background-color: #1c1c1c;
+    border: none;
+}
+
+.filter__square::
 /* .filter end */
 
 
