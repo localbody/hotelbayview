@@ -15,6 +15,7 @@
     width: 880px;
     margin: 0 auto;
     padding-top: 34px;
+    margin-bottom: 77px;
 }
 
 
@@ -52,6 +53,7 @@ hr {
     font-size: 15px;
     line-height: 1.37;
     letter-spacing: -0.6px;
+    margin-bottom: 19px;
 }
 
 .filter__title--white {
@@ -69,7 +71,7 @@ hr {
 .filter__items {
     display: grid;
     grid-template-columns: 110px 110px;
-    grid-template-rows: 92px 92px;
+    grid-template-rows: 92px 65px;
     row-gap: 14px;
     justify-content: center;
     justify-items: center;
@@ -82,13 +84,13 @@ hr {
 .filter__item--date {
     grid-template-columns: min-content min-content;
     grid-template-rows: min-content min-content;
-    grid-template-areas: "label label" "date month";
+    grid-template-areas: "label label""date month";
 }
 
 .filter__item--count {
     grid-template-columns: min-content;
     grid-template-rows: min-content;
-    grid-template-areas: "label" "count";
+    grid-template-areas: "label""count";
 }
 
 .filter__label {
@@ -96,7 +98,7 @@ hr {
     align-self: center;
     justify-self: center;
     font-size: 11px;
-    /* line-height: 2.28; */
+    line-height: 2.28;
     letter-spacing: 0.72px;
 }
 
@@ -145,15 +147,88 @@ hr {
 }
 
 .filter__square {
-    width: 29px;
+    width: 60px;
     height: 24px;
     background-color: #1c1c1c;
     border: none;
+    font-size: 9.5px;
+    line-height: 2.16;
+    letter-spacing: -0.19px;
+    color: #ffffff;
+    padding-left: 7px;
 }
 
-.filter__square::
+.filter__square::placeholder {
+    font-size: 9.5px;
+    line-height: 2.16;
+    letter-spacing: -0.19px;
+    color: #ffffff;
+}
+
+.input-dummy {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.room-size {
+    font-size: 9px;
+    line-height: 2.28;
+    letter-spacing: normal;
+    color: #878787;
+}
+
+.reviews__items {
+    display: flex;
+
+}
+
+.reviews__item {
+    width: 30px;
+    height: 25px;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 9.5px;
+    line-height: 25px;
+    letter-spacing: -0.19px;
+    text-align: center;
+    margin-right: 11px;
+}
+
+.reviews__item:hover {
+    background-color: #c19b76;
+}
+
 /* .filter end */
 
+
+/* .rooms begin */
+
+.rooms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 22px;
+    column-gap: 22px;
+    row-gap: 33px;
+
+}
+
+
+
+.room__description {
+    /*  */
+    margin: 22px;
+
+}
+
+.room__title {
+    /*  */
+    font-family: 'Gilda Display', serif;
+    line-height: 0.8;
+    color: #000;
+    font-size: 22.5px;
+}
+
+/* .rooms end */
 
 /* .main end */
 

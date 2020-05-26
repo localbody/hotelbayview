@@ -207,89 +207,10 @@
     justify-content: space-between;
 }
 
-.best-rooms__room-detail {
-    width: 428px;
-    background-color: white;
-}
-
-.best-rooms__room-detail-img {
-    width: 428px;
-    height: 185px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    padding-top: 162px;
-    padding-left: 22px;
-}
-
-.best-rooms__room-name {
-    text-transform: uppercase;
-    font-size: 8.5px;
-    color: #fff;
-}
-
-.best-rooms__room-wrapper {
-    padding: 26px 22px;
-}
-
-.best-rooms__room-title {
-    font-size: 22.5px;
-    font-family: 'Gilda Display', serif;
-    line-height: 0.8;
-    color: #000;
-}
-
 .best-rooms__list {
     width: 428px;
 }
 
-.best-rooms__room-detail-items {
-    margin-top: 9px;
-    margin-bottom: 21px;
-}
-
-.best-rooms__room-detail-item {
-    display: inline-block;
-    font-size: 10px;
-    line-height: 2.28;
-    letter-spacing: normal;
-    color: #878787;
-    text-transform: uppercase;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 27px;
-    margin-right: 17px;
-    height: 19px;
-}
-
-.bg-reviews {
-    width: 21px;
-    height: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    display: inline-block;
-    margin-right: 8px;
-}
-
-.best-rooms__room-about {
-    color: #878787;
-    line-height: 2;
-    font-size: 10.5px;
-}
-
-.book-now__button {
-    width: 166px;
-    height: 35px;
-    background-color: #1c1c1c;
-    font-size: 9px;
-    font-weight: 900;
-    line-height: 2.41;
-    letter-spacing: 0.85px;
-    color: white;
-}
 
 .best-rooms__items {
     display: grid;
