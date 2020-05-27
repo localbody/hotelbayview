@@ -88,7 +88,7 @@
     height: 281px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .room-info__list {

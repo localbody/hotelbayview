@@ -165,7 +165,7 @@ sup {
     width: 233px;
 }
 
-.check {
+/* .check {
     width: 109px;
     height: 121px;
     background-color: #151515;
@@ -205,7 +205,7 @@ sup {
     text-transform: uppercase;
     letter-spacing: 0.68px;
     margin-top: 3px;
-}
+} */
 
 .button {
     color: white;
@@ -216,11 +216,6 @@ sup {
     text-transform: uppercase;
 }
 
-.button--toupe {
-    background-color: #c19b76;
-    width: 233px;
-    height: 32px;
-}
 
 .button--transparent {
     background-color: transparent;
