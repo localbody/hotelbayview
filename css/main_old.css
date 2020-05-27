@@ -476,11 +476,11 @@ button.transparent {
 }
 
 li.guests {
-    background-image: url(../img/user.svg);
+    background-image: url(../img/svg/guest.svg);
 }
 
 li.square {
-    background-image: url(../img/plan.svg);
+    background-image: url(../img/svg/square.svg);
 }
 
 .rooms aside.book-now sup {

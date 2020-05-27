@@ -144,6 +144,7 @@ hr {
 .services__items {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
 }
 
 .filter__square {
@@ -232,6 +233,47 @@ hr {
 
 /* .main end */
 
+
+/* checkbox begin */
+.services__label {
+    line-height: 1.95;
+    letter-spacing: 0.63px;
+    color: #878787;
+}
+
+.check__input {
+    /* position: absolute; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.check__box {
+    /* position: absolute; */
+    /* margin-left: -1.2em; */
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.check__mark {
+    fill: white;
+}
+
+.check__square {
+    fill: none;
+    stroke-width: 1;
+    stroke: #b3b3b3
+}
+
+/* Checked */
+
+.check__input:checked+* .check__mark {
+    fill: #c19b76;
+}
+
+/* checkbox end */
 
 /* .footer begin */
 
