@@ -261,7 +261,7 @@
 .check-all {
     height: 480px;
     display: flex;
-    width: 1440px;
+    /* width: 1440px; */
     margin: 0 auto;
 }
 
@@ -280,6 +280,7 @@
 .check-all__image {
     height: 240px;
     width: 360px;
+    flex: 50%;
 }
 
 .image1 {
