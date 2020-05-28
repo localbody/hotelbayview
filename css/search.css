@@ -136,6 +136,7 @@ hr {
     letter-spacing: -0.54px;
     text-align: center;
     color: #c19b76;
+    padding-left: 5px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -180,7 +181,6 @@ hr {
 
 .reviews__items {
     display: flex;
-
 }
 
 .reviews__item {
@@ -199,6 +199,7 @@ hr {
     background-color: #c19b76;
 }
 
+
 /* .filter end */
 
 
@@ -210,15 +211,11 @@ hr {
     padding-left: 22px;
     column-gap: 22px;
     row-gap: 33px;
-
 }
-
-
 
 .room__description {
     /*  */
     margin: 22px;
-
 }
 
 .room__title {
@@ -229,12 +226,15 @@ hr {
     font-size: 22.5px;
 }
 
+
 /* .rooms end */
+
 
 /* .main end */
 
 
 /* checkbox begin */
+
 .services__label {
     line-height: 1.95;
     letter-spacing: 0.63px;
@@ -267,13 +267,16 @@ hr {
     stroke: #b3b3b3
 }
 
+
 /* Checked */
 
 .check__input:checked+* .check__mark {
     fill: #c19b76;
 }
 
+
 /* checkbox end */
+
 
 /* .footer begin */
 
