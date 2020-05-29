@@ -30,8 +30,7 @@ hr {
     margin-bottom: 21px;
     height: 1px;
     width: 100%;
-    /* background-color: #f9f9f9; */
-    background-color: #000;
+    background-color: #f9f9f9;
     border: none;
     padding: 0;
 }
