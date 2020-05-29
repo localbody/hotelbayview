@@ -29,6 +29,7 @@
     color: #fff;
     font-size: 10px;
     text-transform: uppercase;
+    transition: all 0.25s;
 }
 
 .top__submenu-link:hover {

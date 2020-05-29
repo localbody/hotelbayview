@@ -106,6 +106,7 @@
      text-align: left;
      color: #878787;
      padding-bottom: 2px;
+     transition: all 0.25s;
  }
 
  .header-menu__link--active,
@@ -304,6 +305,7 @@
      line-height: 2.16;
      letter-spacing: 0.29px;
      color: white;
+     transition: all 0.25s;
  }
 
  .footer-menu-item:hover {

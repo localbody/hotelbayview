@@ -193,6 +193,7 @@ hr {
     letter-spacing: -0.19px;
     text-align: center;
     margin-right: 11px;
+    transition: all 0.25s;
 }
 
 .reviews__item:hover {
