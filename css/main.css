@@ -64,11 +64,11 @@
      font-size: smaller;
  }
 
-
  /* header BEGIN */
 
  .header {
      background-color: #1c1c1c;
+     height: 50px;
  }
 
  .header__inner {
@@ -113,7 +113,6 @@
      color: white;
      border-bottom: 3px solid #878787;
  }
-
 
  /* header END */
 
@@ -199,12 +198,12 @@
      background-repeat: no-repeat;
      background-size: cover;
      box-sizing: border-box;
-     padding-top: 162px;
+     padding-top: 160px;
      padding-left: 22px;
  }
 
  .room-detail-items {
-     margin-top: 15px;
+     margin-top: 10px;
      margin-bottom: 15px;
      display: flex;
  }
@@ -238,7 +237,7 @@
  }
 
  .room-detail__room-wrapper {
-     padding: 26px 22px;
+     padding: 22px 22px;
  }
 
  .room-detail__room-title {
@@ -259,7 +258,7 @@
  }
 
  .book-now-button {
-     width: 166px;
+     width: 170px;
      height: 35px;
      background-color: #1c1c1c;
      font-size: 9px;
@@ -273,7 +272,7 @@
      border: solid 1.5px #c19b76;
      background-color: white;
      color: #c19b76;
-     margin-top: 10px;
+     margin-top: 15px;
  }
 
  /* .main end */
@@ -412,12 +411,20 @@
      margin-top: 10px;
  }
 
+ .mt-15 {
+     margin-top: 15px;
+ }
+
  .mt-30 {
      margin-top: 30px;
  }
 
  .mb-30 {
      margin-bottom: 30px;
+ }
+
+ .mb-40 {
+     margin-bottom: 40px;
  }
 
  .room-description {

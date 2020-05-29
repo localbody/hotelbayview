@@ -1,7 +1,8 @@
 /* #top BEGIN */
 
 .top--bg-home {
-    height: 506px;
+    padding-top: 50px;
+    height: 575px;
     background-image: url(../img/top-home.jpg);
     background-position: center;
 }
@@ -11,8 +12,13 @@
     font-size: 9px;
     text-align: center;
     font-style: normal;
-    line-height: 2.28;
+    line-height: 6;
     letter-spacing: 1.53px;
+}
+
+.top__subtitle--mt-mb {
+    margin-top: 13px;
+    margin-bottom: 30px;
 }
 
 .small-divider {
@@ -20,6 +26,7 @@
     height: 2px;
     background-color: white;
     border: none;
+    margin: 0 auto;
 }
 
 .small-divider--gray {
@@ -101,7 +108,7 @@
 
 .about-us {
     display: flex;
-    width: 1000px;
+    width: 811px;
     margin: 0 auto;
     height: 412px;
     padding-top: 87px;
@@ -148,12 +155,11 @@
     line-height: 2.41;
     letter-spacing: 0.85px;
     margin: 0 auto;
-    margin-top: 27px;
+    margin-top: 48px;
 }
 
 .about-us__right {
     position: relative;
-    margin-left: 37px;
 }
 
 .about-us__img {
@@ -168,13 +174,13 @@
 
 .about-us__img--pic2 {
     z-index: 2;
-    left: 0;
+    left: 25;
     top: 160px;
 }
 
 .about-us__img--pic3 {
     z-index: 3;
-    left: 318px;
+    left: 317px;
     top: 15px;
 }
 
@@ -193,16 +199,17 @@
 
 .best-rooms__title {
     font-family: 'Gilda Display', serif;
-    font-size: 44px;
+    font-size: 41px;
     line-height: 1.46;
     letter-spacing: normal;
     text-align: center;
     color: #1c1c1c;
+
 }
 
 .best-rooms__wrapper {
     width: 880px;
-    margin: 0 auto;
+    margin: 31px auto 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -224,7 +231,7 @@
     background-size: cover;
     height: 185px;
     box-sizing: border-box;
-    padding-top: 162px;
+    padding-top: 155px;
     padding-left: 22px;
     color: white;
     font-size: 8.5px;
@@ -321,8 +328,9 @@
     font-family: 'Gilda Display', serif;
     font-size: 60px;
     line-height: 1.01;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.5px;
     color: white;
+    margin-top: 5px;
     margin-bottom: 34px;
 }
 
@@ -342,7 +350,6 @@
     line-height: 1.95;
     letter-spacing: 1.1px;
     color: #878787;
-    padding-right: 52px;
 }
 
 .check-all__button {

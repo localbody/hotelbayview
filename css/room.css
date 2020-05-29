@@ -2,15 +2,15 @@
 
 .top--bg-room {
     background-image: url(../img/top-room.jpg);
-    padding-top: 230px;
-    height: 288px;
+    padding-top: 210px;
+    height: 285px;
     background-position: center;
 }
 
 .top__sub {
     width: 880px;
     height: 40px;
-    margin: 18px auto 0 auto;
+    margin: 20px auto 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@
 
 .top__submenu-link {
     color: #fff;
-    font-size: 9px;
+    font-size: 10px;
     text-transform: uppercase;
 }
 
@@ -39,6 +39,7 @@
 .top__price {
     width: 150px;
     color: white;
+    margin-right: 65px;
 }
 
 .top__price--value {
@@ -61,9 +62,9 @@
 .room__name {
     font-family: 'Gilda Display', serif;
     color: #1c1c1c;
-    font-size: 30px;
+    font-size: 31px;
     margin-top: 38px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .room__title {
@@ -76,7 +77,7 @@
 .room-info {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 .room-info__content {
@@ -105,8 +106,8 @@
 
 .room-info__item--white {
     color: white;
-    padding-top: 255px;
-    padding-left: 15px;
+    padding-top: 248px;
+    padding-left: 23px;
 }
 
 .room-info__item-rating {
@@ -148,7 +149,7 @@
 }
 
 .room-services-list {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
@@ -172,7 +173,7 @@
 
 .book-now {
     /* width: 278px; */
-    height: 280px;
+    height: 235px;
     background-color: #1c1c1c;
     padding: 22px;
     display: flex;
@@ -227,7 +228,7 @@
 }
 
 .check__item--date {
-    font-size: 9px;
+    font-size: 10px;
     color: #fff;
     font-style: italic;
     text-align: center;
