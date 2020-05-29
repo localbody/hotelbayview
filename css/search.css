@@ -143,6 +143,14 @@ hr {
     -moz-appearance: none;
 }
 
+.filter__month option {
+    background: #000;
+    color: white;
+    padding: 5px;
+}
+
+
+
 .services__items {
     display: grid;
     grid-template-columns: 1fr 1fr;

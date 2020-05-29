@@ -51,11 +51,12 @@
 .availablity__item {
     flex: 25%;
     padding-left: 35px;
+    display: flex;
 }
 
 .availablity__item label {
     display: block;
-    width: 57px;
+    /* width: 57px; */
     text-align: center;
     font-size: 9px;
     line-height: 2.28;
@@ -97,7 +98,8 @@
     color: #1c1c1c;
     background: transparent;
     vertical-align: top;
-    line-height: 42px;
+    height: 44px;
+    margin-top: 38px;
 }
 
 

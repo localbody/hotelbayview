@@ -65,11 +65,11 @@
             <div class="availablity">
 
                 <div class="availablity__item">
-                    <label for="check-in-day">
+                    <label>
                         CHECK-IN
+                        <input type="text" value="26">
                     </label>
-                    <input type="text" id="check-in-day" value="26">
-                    <select name="check-in-month" id="check-in-month">
+                    <select name="check-in-month">
                         <option value="1">Jan</option>
                         <option value="2">Feb</option>
                         <option value="3">Mar</option>
@@ -86,11 +86,11 @@
                 </div>
 
                 <div class="availablity__item">
-                    <label for="check-out-day">
+                    <label>
                         CHECK-OUT
+                        <input type="text" value="28">
                     </label>
-                    <input type="text" id="check-out-day" value="28">
-                    <select name="check-out-month" id="check-out-month">
+                    <select name="check-out-month">
                         <option value="1">Jan</option>
                         <option value="2">Feb</option>
                         <option value="3">Mar</option>
@@ -107,10 +107,11 @@
                 </div>
 
                 <div class="availablity__item">
-                    <label for="guest">
+                    <label>
                         GUEST
+                        <input type="text" value="1">
                     </label>
-                    <input type="text" id="guest" value="1">
+
                 </div>
 
                 <div class="availablity__item">
@@ -161,62 +162,72 @@
 
             <div class="best-rooms__wrapper">
 
-                <div class="room-detail room-detail--big">
+                <a href="room.html">
+                    <div class="room-detail room-detail--big">
 
-                    <div class="room-detail-img bg--adriatic-suite">
-                        <p class="room-detail__room-name">
-                            Adriatic Suite
-                        </p>
+                        <div class="room-detail-img bg--adriatic-suite">
+                            <p class="room-detail__room-name">
+                                Adriatic Suite
+                            </p>
+                        </div>
+
+                        <div class="room-detail__room-wrapper">
+
+                            <h3 class="room-detail__room-title">
+                                Adriatic Suite
+                            </h3>
+
+                            <ul class="room-detail-items">
+                                <li class="room-detail-item pl-none">
+                                    <span class="bg-reviews">
+                                        7.5
+                                    </span> 5 reviews
+                                </li>
+                                <li class="room-detail-item icon-guest">
+                                    3 guests
+                                </li>
+                                <li class="room-detail-item icon-square">
+                                    57 М
+                                    <sup>2</sup>
+                                </li>
+                            </ul>
+
+                            <p class="room-detail-about">
+                                Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront and the
+                                main promenade.
+                            </p>
+
+                            <button class="book-now-button mt-15">
+                                BOOK NOW FROM 300$
+                            </button>
+                        </div>
+
                     </div>
-
-                    <div class="room-detail__room-wrapper">
-
-                        <h3 class="room-detail__room-title">
-                            Adriatic Suite
-                        </h3>
-
-                        <ul class="room-detail-items">
-                            <li class="room-detail-item pl-none">
-                                <span class="bg-reviews">
-                                    7.5
-                                </span> 5 reviews
-                            </li>
-                            <li class="room-detail-item icon-guest">
-                                3 guests
-                            </li>
-                            <li class="room-detail-item icon-square">
-                                57 М
-                                <sup>2</sup>
-                            </li>
-                        </ul>
-
-                        <p class="room-detail-about">
-                            Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront and the
-                            main promenade.
-                        </p>
-
-                        <button class="book-now-button mt-15">
-                            BOOK NOW FROM 300$
-                        </button>
-                    </div>
-
-                </div>
+                </a>
 
                 <div class="best-rooms__list">
 
                     <ul class="best-rooms__items">
-                        <li class="best-rooms__item bg-atelier">
-                            Atelier
-                        </li>
-                        <li class="best-rooms__item bg-piazza">
-                            Piazza
-                        </li>
-                        <li class="best-rooms__item bg-gallery">
-                            Gallery
-                        </li>
-                        <li class="best-rooms__item bg-grand-piazza-suite">
-                            Grand Piazza Suite
-                        </li>
+                        <a href="room.html">
+                            <li class="best-rooms__item bg-atelier">
+                                Atelier
+                            </li>
+                        </a>
+                        <a href="room.html">
+                            <li class="best-rooms__item bg-piazza">
+                                Piazza
+                            </li>
+                        </a>
+                        <a href="room.html">
+                            <li class="best-rooms__item bg-gallery">
+                                Gallery
+                            </li>
+                        </a>
+                        <a href="room.html">
+                            <li class="best-rooms__item bg-grand-piazza-suite">
+                                Grand Piazza Suite
+                            </li>
+                        </a>
                     </ul>
 
                 </div>

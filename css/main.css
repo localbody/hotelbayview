@@ -112,7 +112,7 @@
  .header-menu__link--active,
  .header-menu__link:hover {
      color: white;
-     border-bottom: 3px solid #878787;
+     border-bottom: 1px solid #878787;
  }
 
  /* header END */
