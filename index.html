@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -51,12 +49,13 @@
 
         <section class="top top--bg-home">
 
+
             <h2 class="top__title">
                 LUXURY HOTEL & BEST RESORT
             </h2>
             <hr class="small-divider">
             <h1 class="top__subtitle top__subtitle--mt-mb">
-                ENJOY A LUXURY<br>EXPERIENCE
+                ENJOY A LUXURY EXPERIENCE
             </h1>
             <button class="button button--transparent">
                 ROOMS & SUITES
@@ -65,11 +64,11 @@
             <div class="availablity">
 
                 <div class="availablity__item">
-                    <label>
+                    <label class="availablity__label">
                         CHECK-IN
-                        <input type="text" value="26">
+                        <input class="availablity__input" type="text" value="26">
                     </label>
-                    <select name="check-in-month">
+                    <select class="availablity__select" name="check-in-month">
                         <option value="1">Jan</option>
                         <option value="2">Feb</option>
                         <option value="3">Mar</option>
@@ -86,11 +85,11 @@
                 </div>
 
                 <div class="availablity__item">
-                    <label>
+                    <label class="availablity__label">
                         CHECK-OUT
-                        <input type="text" value="28">
+                        <input class="availablity__input" type="text" value="28">
                     </label>
-                    <select name="check-out-month">
+                    <select class="availablity__select" name="check-out-month">
                         <option value="1">Jan</option>
                         <option value="2">Feb</option>
                         <option value="3">Mar</option>
@@ -107,15 +106,15 @@
                 </div>
 
                 <div class="availablity__item">
-                    <label>
+                    <label class="availablity__label">
                         GUEST
-                        <input type="text" value="1">
+                        <input class="availablity__input" type="text" value="1">
                     </label>
 
                 </div>
 
-                <div class="availablity__item">
-                    <button>
+                <div class="availablity__item availablity__item--row">
+                    <button class="availablity__button">
                         CHECK<br>AVAILABILITY
                     </button>
                 </div>
@@ -130,12 +129,10 @@
                     HOTEL BAYVIEW
                 </p>
                 <h2 class="about-us__subtitle">
-                    Pearl of the<br>Adriatic
+                    Pearl&nbsp;of&nbsp;the Adriatic
                 </h2>
                 <p class="about-us__description">
-                    Hotel Bayview is a luxurious boutique hotel located in the heart of Rovinj’s lively Old town.
-                    Offering views of the harbor, St. Catherine's Island or the Main Square, each suite is fitted with
-                    design furniture and local art. Guests can relax at 2 on-site
+                    Hotel Bayview is a luxurious boutique hotel located in the heart of Rovinj’s lively Old town. Offering views of the harbor, St. Catherine's Island or the Main Square, each suite is fitted with design furniture and local art. Guests can relax at 2 on-site
                     bars and a brasserie style restaurant.
                 </p>
                 <button class="about-us__button">
@@ -151,87 +148,88 @@
         </section>
 
         <section class="best-rooms">
+            <div class="best-rooms__container">
 
-            <p class="hotel-bayview">
-                HOTEL BAYVIEW
-            </p>
-            <hr class="small-divider small-divider--gray">
-            <h2 class="best-rooms__title">
-                Best Rooms
-            </h2>
+                <p class="hotel-bayview">
+                    HOTEL BAYVIEW
+                </p>
+                <hr class="small-divider small-divider--gray">
+                <h2 class="best-rooms__title">
+                    Best Rooms
+                </h2>
 
-            <div class="best-rooms__wrapper">
+                <div class="best-rooms__wrapper">
 
-                <a href="room.html">
-                    <div class="room-detail room-detail--big">
+                    <a href="room.html">
+                        <div class="room-detail room-detail--big">
 
-                        <div class="room-detail-img bg--adriatic-suite">
-                            <p class="room-detail__room-name">
-                                Adriatic Suite
-                            </p>
-                        </div>
+                            <div class="room-detail-img bg--adriatic-suite">
+                                <p class="room-detail__room-name">
+                                    Adriatic Suite
+                                </p>
+                            </div>
 
-                        <div class="room-detail__room-wrapper">
+                            <div class="room-detail__room-wrapper">
 
-                            <h3 class="room-detail__room-title">
-                                Adriatic Suite
-                            </h3>
+                                <h3 class="room-detail__room-title">
+                                    Adriatic Suite
+                                </h3>
 
-                            <ul class="room-detail-items">
-                                <li class="room-detail-item pl-none">
-                                    <span class="bg-reviews">
+                                <ul class="room-detail-items">
+                                    <li class="room-detail-item pl-none">
+                                        <span class="bg-reviews">
                                         7.5
                                     </span> 5 reviews
-                                </li>
-                                <li class="room-detail-item icon-guest">
-                                    3 guests
-                                </li>
-                                <li class="room-detail-item icon-square">
-                                    57 М
-                                    <sup>2</sup>
-                                </li>
-                            </ul>
+                                    </li>
+                                    <li class="room-detail-item icon-guest">
+                                        3 guests
+                                    </li>
+                                    <li class="room-detail-item icon-square">
+                                        57 М
+                                        <sup>2</sup>
+                                    </li>
+                                </ul>
 
-                            <p class="room-detail-about">
-                                Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront and the
-                                main promenade.
-                            </p>
+                                <p class="room-detail-about">
+                                    Offering 2 balconies and views of Rovinj's Main Square and the lively waterfront and the main promenade.
+                                </p>
 
-                            <button class="book-now-button mt-15">
+                                <button class="book-now-button mt-15">
                                 BOOK NOW FROM 300$
                             </button>
+                            </div>
+
                         </div>
+                    </a>
+
+                    <div class="best-rooms__list">
+
+                        <ul class="best-rooms__items">
+                            <a href="room.html">
+                                <li class="best-rooms__item bg-atelier">
+                                    Atelier
+                                </li>
+                            </a>
+                            <a href="room.html">
+                                <li class="best-rooms__item bg-piazza">
+                                    Piazza
+                                </li>
+                            </a>
+                            <a href="room.html">
+                                <li class="best-rooms__item bg-gallery">
+                                    Gallery
+                                </li>
+                            </a>
+                            <a href="room.html">
+                                <li class="best-rooms__item bg-grand-piazza-suite">
+                                    Grand Piazza Suite
+                                </li>
+                            </a>
+                        </ul>
 
                     </div>
-                </a>
-
-                <div class="best-rooms__list">
-
-                    <ul class="best-rooms__items">
-                        <a href="room.html">
-                            <li class="best-rooms__item bg-atelier">
-                                Atelier
-                            </li>
-                        </a>
-                        <a href="room.html">
-                            <li class="best-rooms__item bg-piazza">
-                                Piazza
-                            </li>
-                        </a>
-                        <a href="room.html">
-                            <li class="best-rooms__item bg-gallery">
-                                Gallery
-                            </li>
-                        </a>
-                        <a href="room.html">
-                            <li class="best-rooms__item bg-grand-piazza-suite">
-                                Grand Piazza Suite
-                            </li>
-                        </a>
-                    </ul>
 
                 </div>
-
             </div>
 
         </section>
@@ -261,13 +259,10 @@
 
                 <ul class="check-all__about-items">
                     <li class="check-all__about-item">
-                        Decorated with original art works by contemporary artists, all suites are air-conditioned and
-                        consist of a SMART TV, mini-bar and coffee/tea making facilities.
+                        Decorated with original art works by contemporary artists, all suites are air-conditioned and consist of a SMART TV, mini-bar and coffee/tea making facilities.
                     </li>
                     <li class="check-all__about-item">
-                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
-                        orci ut et lobortis. Blandit vel sapien vitae, condimentum ultricies magna et orci ut et
-                        lobortis, Phasellus enim
+                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis. Blandit vel sapien vitae, condimentum ultricies magna et orci ut et lobortis, Phasellus enim
                     </li>
                 </ul>
 
